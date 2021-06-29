@@ -30,36 +30,6 @@ public class DadosApp extends MainActivity{
             listaPlanos[getNumeroPlanos()] = new Plano(""+name,  lista);
 
         }
-
-        /*
-        if(numero == 0){
-
-            listaPassos.add(new Tarefas("1. Passo --> Preparação de ingredientes",
-                    false));
-            listaPassos.add(new Tarefas("2. Passo --> Mistura de ingredientes",
-                    false));
-
-            listaPassos.add(new Tarefas("3. Passo --> Coloque o bolo no forno",
-                    false));
-            listaPassos.add(new Tarefas("4. Passo --> Finalizar o bolo",
-                    false));
-        }else {
-            if(planoPosicao == 1){
-                listaPassos.add(new Tarefas("1. Passo --> Compra de terreno",
-                        false));
-
-                listaPassos.add(new Tarefas("2. Passo --> Preparação de terreno",
-                        false));
-
-                listaPassos.add(new Tarefas("3. Passo --> Plantar trigo",
-                        false));
-
-                listaPassos.add(new Tarefas("4. Passo --> Obter colheita",
-                        false));
-
-            }
-        */
-
     }
 
     public String getTextPlano(int posicao){
